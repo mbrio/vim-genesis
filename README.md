@@ -1,6 +1,6 @@
 # Genesis
 
-A Vim theme to closely mimic Atom's Genesis syntax theme.
+Vim and Powerline themes to closely mimic Atom's Genesis syntax theme.
 
 ## Requirements
 
@@ -42,8 +42,14 @@ On Windows put `genesis.vim` in:
 
 If you are using Vundle you intall it by placing this in your `~/.vimrc` file:
 
-    Plugin 'mbrio/vim-genesis'
+    Plugin 'mbrio/vim-genesis
 
 ## Usage
 
+### Color Scheme
+
     :color genesis
+
+### Powerline
+
+    let g:airline_theme='genesis'

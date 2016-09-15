@@ -1,6 +1,6 @@
 " 'genesis.vim' -- Vim color scheme.
 " Maintainer:   Michael Diolosa (michael.diolosa@gmail.com)
-" Description:  Dark Solarized, without the bullshit.
+" Description:  Vim and Powerline themes to closely mimic Atom's Genesis syntax theme.
 
 hi clear
 
