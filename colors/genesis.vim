@@ -15,7 +15,7 @@ hi  Normal                                  ctermfg=White  ctermbg=Black      gu
 set background=dark
 set t_Co=256
 
-hi  ColorColumn                             ctermbg=Red    gui=NONE
+hi  ColorColumn                             ctermbg=234 gui=NONE
 hi  Comment                                 ctermfg=241    gui=italic
 hi  ConId                                   ctermfg=DarkYellow    gui=NONE
 hi  Conceal                                 ctermfg=DarkBlue    gui=NONE
@@ -37,7 +37,7 @@ hi  HelpExample                             ctermfg=Cyan    gui=NONE
 hi  Identifier                              ctermfg=White    gui=NONE
 hi  IncSearch                               cterm=standout  ctermfg=16    gui=standout
 hi  LineNr                                  ctermfg=241  ctermbg=Black      gui=NONE
-hi  MatchParen                              cterm=NONE  ctermfg=White ctermbg=Black     gui=NONE
+hi  MatchParen                              cterm=NONE  ctermfg=White ctermbg=237   gui=NONE
 hi  ModeMsg                                 ctermfg=DarkBlue    gui=NONE
 hi  MoreMsg                                 ctermfg=DarkBlue    gui=NONE
 hi  NonText                                 cterm=NONE  ctermfg=Yellow    gui=NONE
