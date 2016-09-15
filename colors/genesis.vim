@@ -22,8 +22,8 @@ hi  Conceal                                 ctermfg=DarkBlue    gui=NONE
 hi  Constant                                ctermfg=Yellow    gui=NONE
 hi  Cursor                                  ctermfg=16  ctermbg=Blue      gui=NONE
 hi  CursorColumn                            ctermbg=Black    gui=NONE
-hi  CursorLine                              cterm=NONE  ctermbg=16 gui=NONE
-hi  CursorLineNr                            ctermfg=Yellow  gui=NONE
+hi  CursorLine                              cterm=NONE  gui=NONE
+hi  CursorLineNr                            ctermfg=DarkBlue  gui=NONE
 hi  DiffAdd                                 ctermfg=DarkGreen  ctermbg=Black        gui=NONE
 hi  DiffChange                              ctermfg=DarkYellow  ctermbg=Black        gui=NONE
 hi  DiffDelete                              ctermfg=DarkRed  ctermbg=Black      gui=NONE
@@ -63,7 +63,7 @@ hi  TabLineFill                             cterm=underline  ctermfg=Blue  cterm
 hi  TabLineSel                              cterm=underline,reverse  ctermfg=Green  ctermbg=White        gui=underline,reverse
 hi  Title                                   cterm=NONE  ctermfg=16    gui=NONE
 hi  Todo                                    cterm=NONE  ctermfg=DarkMagenta    gui=NONE
-hi  Type                                    ctermfg=Yellow    gui=NONE
+hi  Type                                    ctermfg=DarkMagenta    gui=NONE
 hi  Underlined                              ctermfg=DarkMagenta    gui=NONE
 hi  VarId                                   ctermfg=DarkMagenta    gui=NONE
 hi  VertSplit                               ctermfg=Yellow  ctermbg=Yellow      gui=NONE
@@ -237,7 +237,7 @@ hi link Keyword                             PreProc
 hi link Label                               Statement
 hi link Macro                               PreProc
 hi link Number                              Constant
-hi link Operator                            Statement
+hi link Operator                            Normal
 hi link PreCondit                           PreProc
 hi link Repeat                              Statement
 hi link SpecialChar                         Special
@@ -300,12 +300,20 @@ hi link vimSetEqual                         Normal
 hi link vimUserFunc                         Function
 hi link vipmVar                             Identifier
 
-"hi link scalaKeywordModifier                PreProc
+hi link jsFuncCall                          Constant
+hi link jsParen                             Special
+hi link jsBlock                             Special
+hi link jsImportContainer                   Special
+hi link jsModuleWords                       Special
+
+hi link scalaKeywordModifier                PreProc
 "hi link scalaAnnotation                     Identifier
 "hi link scalaNameDefinition                 Identifier
-"hi link scalaSpecial                        Directory
-"hi link scalaCapitalWord                    Type
-"hi link scalaInstanceDeclaration            Statement
+hi link scalaSpecial                        Special
+hi link scalaCapitalWord                    Constant
+hi link scalaInstanceDeclaration            Constant
+hi link scalaTypeDeclaration                Constant
+hi link scalaSquareBracketsBrackets         Normal
 
 hi clear SyntasticErrorLine
 hi clear SyntasticWarningLine
