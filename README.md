@@ -1,5 +1,6 @@
-Genesis
-=======
+# Genesis
+
+A Vim theme to closely mimic Atom's Genesis syntax theme.
 
 ## Installation
 
