@@ -47,7 +47,7 @@ hi  PmenuSel                                cterm=reverse  ctermfg=Green  ctermb
 hi  PmenuThumb                              cterm=reverse  ctermfg=Blue  ctermbg=16      gui=reverse
 hi  PreProc                                 cterm=NONE  ctermfg=DarkMagenta  gui=NONE
 hi  Question                                cterm=NONE  ctermfg=DarkCyan    gui=NONE
-hi  Search                                  cterm=reverse  ctermfg=DarkYellow ctermbg=NONE    guibg=NONE  gui=reverse
+hi  Search                                  cterm=reverse  ctermfg=Gray ctermbg=NONE    guibg=NONE  gui=reverse
 hi  SignColumn                              ctermfg=Blue  ctermbg=Black    gui=NONE
 hi  Special                                 ctermfg=DarkBlue   gui=NONE
 hi  SpecialKey                              cterm=NONE  ctermfg=Yellow  ctermbg=Black      gui=NONE
@@ -67,7 +67,7 @@ hi  Type                                    ctermfg=DarkMagenta    gui=NONE
 hi  Underlined                              ctermfg=DarkMagenta    gui=NONE
 hi  VarId                                   ctermfg=DarkMagenta    gui=NONE
 hi  VertSplit                               ctermfg=Yellow  ctermbg=Yellow      gui=NONE
-hi  Visual                                  cterm=reverse  ctermfg=Green  ctermbg=16      gui=reverse
+hi  Visual                                  cterm=NONE ctermbg=234     gui=reverse
 hi  VisualNOS                               cterm=reverse  ctermbg=Black  ctermbg=NONE    gui=reverse
 hi  WarningMsg                              cterm=NONE  ctermfg=DarkRed    gui=NONE
 hi  WildMenu                                cterm=reverse  ctermfg=White  ctermbg=Black     gui=reverse
