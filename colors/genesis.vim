@@ -48,7 +48,7 @@ hi  PmenuThumb                              cterm=reverse  ctermfg=Blue  ctermbg
 hi  PreProc                                 cterm=NONE  ctermfg=DarkMagenta  gui=NONE
 hi  Question                                cterm=NONE  ctermfg=DarkCyan    gui=NONE
 hi  Search                                  cterm=reverse  ctermfg=DarkYellow ctermbg=NONE    guibg=NONE  gui=reverse
-hi  SignColumn                              ctermfg=Blue  ctermbg=White    gui=NONE
+hi  SignColumn                              ctermfg=Blue  ctermbg=Black    gui=NONE
 hi  Special                                 ctermfg=DarkBlue   gui=NONE
 hi  SpecialKey                              cterm=NONE  ctermfg=Yellow  ctermbg=Black      gui=NONE
 hi  SpellBad                                cterm=undercurl    gui=undercurl
