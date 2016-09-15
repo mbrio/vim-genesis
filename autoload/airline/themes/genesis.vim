@@ -25,7 +25,7 @@ let g:airline#themes#genesis#palette.replace_modified = g:airline#themes#genesis
 
 let s:V1 = [ '#000000' , '#D2876D' , 16 , 3 ]
 let s:V2 = [ '#000000' , '#FF9474' , 16 , 11 ]
-let s:V3 = [ '#ffffff' , '#1c1c1c' , 3  , 234  ]
+let s:V3 = [ '#D2876D' , '#1c1c1c' , 3  , 234  ]
 let g:airline#themes#genesis#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#genesis#palette.visual_modified = {
       \ 'airline_c': [ '#000000' , '#D2876D' , 16     , 3      , ''     ] ,
@@ -49,7 +49,7 @@ if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
 let g:airline#themes#genesis#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
-      \ [ '#d7d7ff' , '#5f00af' , 231 , 13  , ''     ],
-      \ [ '#ffffff' , '#875fd7' , 231 , 5  , ''     ],
-      \ [ '#5f00af' , '#ffffff' , 231  , 13 , '' ])
+      \ [ '#ffffff' , '#C839F1' , 231 , 13  , ''     ],
+      \ [ '#ffffff' , '#C473DC' , 231 , 5  , ''     ],
+      \ [ '#ffffff' , '#C839F1' , 231  , 13 , '' ])
 
