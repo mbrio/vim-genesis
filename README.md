@@ -32,24 +32,36 @@ in your terminal:
 
 ## Installation
 
-On Linux/MacOS/Unix put `genesis.vim` in:
+This package is designed for use with Vim 8 packages, just clone the repository into your
+`~/.vim/pack` folder:
 
-    ~/.vim/colors/ (on unix-like systems) or
+    $ mkdir -p ~/.vim/pack
+    $ cd ~/.vim/pack
+    $ git clone https://github.com/mbrio/vim-genesis.git
 
-On Windows put `genesis.vim` in:
+Since this is an optional package add the following line to your `~/.vimrc`:
 
-    %userprofile%\vimfiles\colors\
-
-If you are using Vundle you intall it by placing this in your `~/.vimrc` file:
-
-    Plugin 'mbrio/vim-genesis
+    packadd! vim-genesis
 
 ## Usage
 
 ### Color Scheme
 
-    :color genesis
+Within Vim issue the following command:
+
+    :colo genesis
+
+If you would like this to be your default theme, add this to your `~/.vimrc` file:
+
+    colo genesis
+
 
 ### Powerline
+
+Within Vim issue the following command:
+
+    :AirlineTheme genesis
+
+If you would like this to be your default Airline theme, add this to your `~/.vimrc` file:
 
     let g:airline_theme='genesis'
