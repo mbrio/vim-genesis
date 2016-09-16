@@ -32,6 +32,8 @@ in your terminal:
 
 ## Installation
 
+### Vim 8
+
 This package is designed for use with Vim 8 packages, just clone the repository into your
 `~/.vim/pack` folder:
 
@@ -42,6 +44,14 @@ This package is designed for use with Vim 8 packages, just clone the repository 
 Since this is an optional package add the following line to your `~/.vimrc`:
 
     packadd! vim-genesis
+
+### Vundle
+
+If you would like to install this color scheme with Vundle, add the following to your `~/.vimrc`:
+
+    Plugin 'mbrio/vim-genesis', {'rtp': 'opt/vim-genesis/'}
+
+### Vim <8
 
 If you would like to install this color scheme to an older version of Vim just copy the
 `opt/vim-genesis/colors/genesis.vim` file into `~/.vim/colors`.
