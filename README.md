@@ -35,13 +35,16 @@ in your terminal:
 This package is designed for use with Vim 8 packages, just clone the repository into your
 `~/.vim/pack` folder:
 
-    $ mkdir -p ~/.vim/pack
+    $ mkdir -p ~/.vim/pack/
     $ cd ~/.vim/pack
     $ git clone https://github.com/mbrio/vim-genesis.git
 
 Since this is an optional package add the following line to your `~/.vimrc`:
 
     packadd! vim-genesis
+
+If you would like to install this color scheme to an older version of Vim just copy the
+`opt/vim-genesis/colors/genesis.vim` file into `~/.vim/colors`.
 
 ## Usage
 
